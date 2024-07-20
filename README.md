@@ -1,17 +1,10 @@
-# Pascalre Jmstoolbox
+# pascalre/jmstoolbox
 
 ## How do I install these formulae?
 
-`brew install pascalre/jmstoolbox/<formula>`
+`brew install --cask pascalre/jmstoolbox/jmstoolbox`
 
-Or `brew tap pascalre/jmstoolbox` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "pascalre/jmstoolbox"
-brew "<formula>"
-```
+Or `brew tap pascalre/jmstoolbox` and then `brew install --cask jmstoolbox`.
 
 ## Documentation
 
