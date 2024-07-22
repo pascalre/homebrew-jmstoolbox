@@ -1,6 +1,6 @@
 # pascalre/jmstoolbox
 
-## How do I install these formulae?
+## How do I install this Cask?
 
 `brew install --cask pascalre/jmstoolbox/jmstoolbox`
 

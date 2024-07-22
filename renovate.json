@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update version variable in Cask jmstoolbox",
+      "fileMatch": ["^Casks/j/jmstoolbox.rb$"],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)\n .+?version \"(?<currentValue>.+?)\""
+      ]
+    }
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "automerge": true
+    }
+  ]
+}

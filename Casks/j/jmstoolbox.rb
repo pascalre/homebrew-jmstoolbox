@@ -1,6 +1,7 @@
 cask "jmstoolbox" do
-  version "6.6.0"
-  sha256 "98dfd91cd37295a8f1387e2cf742b2e8b3a9f54f0aceed1a9c4995e264002fa5"
+  # renovate: datasource=github-releases depName=jmstoolbox/jmstoolbox
+  version "6.5.0"
+  sha256 :no_check
 
   url "https://github.com/jmstoolbox/jmstoolbox/releases/download/v#{version}/jmstoolbox-#{version}-macosx.cocoa.aarch64.tar.gz"
   name "JMSToolBox"
@@ -13,7 +14,5 @@ cask "jmstoolbox" do
     system("xattr -cr \"/Applications/JMSToolBox.app\"")
   end
 
-  zap trash: [
-    "~/.jtb"
-  ]
+  zap trash: "~/.jtb"
 end
