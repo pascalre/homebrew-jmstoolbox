@@ -1,5 +1,7 @@
 # pascalre/jmstoolbox
 
+Homebrew Cask for [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)
+
 ## How do I install this Cask?
 
 `brew install --cask pascalre/jmstoolbox/jmstoolbox`
