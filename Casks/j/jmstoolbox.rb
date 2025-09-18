@@ -1,6 +1,6 @@
 cask "jmstoolbox" do
   # renovate: datasource=github-releases depName=jmstoolbox/jmstoolbox
-  version "7.2.0"
+  version "7.3.0"
   sha256 :no_check
 
   url "https://github.com/jmstoolbox/jmstoolbox/releases/download/v#{version}/jmstoolbox-#{version}-macosx.cocoa.aarch64.tar.gz"
